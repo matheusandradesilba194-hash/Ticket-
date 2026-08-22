@@ -1,0 +1,19 @@
+{
+  "name": "hydra-discord-status-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot de status do Hydra Notifier para Discord e Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2"
+  }
+}
